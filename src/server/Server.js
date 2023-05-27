@@ -13,8 +13,7 @@ class Server{
     set(settings){
         for (let index = 0; index < settings.length; index++) {
             const setting = settings[index];
-            this.app.set(setting.key,setting.value);
-            console.log({setting})
+            this.app.set(setting.key,setting.value);          
         }
     }
     use(middlewares){

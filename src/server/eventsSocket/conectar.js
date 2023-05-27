@@ -1,7 +1,6 @@
 function conectar(io) {
     return function (socket,data) {
-        console.log('user connected');
-        console.log({socket,data});
+        console.log('user connected');        
     }
 }
 module.exports={conectar};
